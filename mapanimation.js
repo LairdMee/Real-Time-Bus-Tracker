@@ -53,3 +53,4 @@ setTimeout(function() {marker.setLngLat(busStops[counter]).addTo(map);},counter*
 if (typeof module !== 'undefined') {
   module.exports = { move };
 }
+
