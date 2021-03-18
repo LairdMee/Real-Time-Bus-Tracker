@@ -1,5 +1,5 @@
 # Real-Time-Bus-Tracker
-The updated code creates a new, second bus zone that's marked in red and runs in a different zone than the MIT Harvard route, which is indicated with a  blue marker.The new red marker bus zone includes 7 stops from MIT to Northeastern University, which is the final destination. The purpose of adding this new zone is to compare the schedules of two buses running from MIT in two different zones. 
+The updated JavaScript code creates a new, second bus zone that's marked in red and runs in a different zone than the MIT Harvard route, which is indicated with a  blue marker.The new red marker bus zone includes 7 stops from MIT to Northeastern University, which is the final destination. The purpose of adding this new zone is to compare the schedules of two buses running from MIT in two different zones. 
 
 ## How to Run this project: 
 Pre-requisite: Have Node.JS server installed.
