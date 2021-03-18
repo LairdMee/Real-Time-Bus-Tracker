@@ -12,11 +12,11 @@ body {
 
 .map-overlay {
 position: absolute;
-left: 0;
-padding: 10px;
+left: 10%;
+padding: 5px;
 }
 .map-overlay1 {
-position: relative;
-left: 0;
-padding: 10px;
+position: absolute;
+left: 50%;
+padding: 5px;
 }
