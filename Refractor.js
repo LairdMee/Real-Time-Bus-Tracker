@@ -1,4 +1,5 @@
 // This array contains the coordinates for all bus stops between MIT and Harvard
+//This array contains the coordinates for all bus stops between MIT and Northestern University
 const busStopsOne = [
   [-71.09220549368317, 42.35939500930387],
   [-71.09472358709407, 42.35923980520844],
@@ -26,13 +27,13 @@ const busStopsOne = [
 //var marker = new mapboxgl.Marker().setLngLat([-71.093729, 42.359244])
 // counter here represents the index of the current bus stop
 let i = 0;
-var marker1 = new mapboxgl.Marker({"color":"#b40219"}).setLngLat(busStopsOne[counter]).addTo(map);
+var marker1 = new mapboxgl.Marker({"color":"#b40219"}).setLngLat(busStopsOne[i]).addTo(map);
 function moveZones() {
-  // TODO: move the marker on the map every 1000ms. Use the function marker.setLngLat() to update the marker coordinates
+  // TODO: move the marker on the map every 4000ms. Use the function marker.setLngLat() to update the marker coordinates
   // Use counter to access bus stops in the array busStops
   while(i < busStopsOne.length){
   task(i);
-   i++;
+   i++; 
   }
 //function moveOne() {marker.setLngLat(busStops[counter]).addTo(map);}
 //function task(counter){
