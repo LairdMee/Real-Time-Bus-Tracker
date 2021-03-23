@@ -5,7 +5,7 @@ The updated JavaScript code creates a new, second bus zone that's marked in red 
 Pre-requisite: Have Node.JS server installed.
 Step 1: To view this project, please download these files from GitHub.
 Step 2: Open each file in VS Code IDE. 
-Step 3: Copy the path of the index.html file and paste it as a url in your web browser and hit enter to run.
+Step 3: Copy the path of the index.html file and paste it as a url in your web browser, and then hit enter to run.
 
 ## Future improvements that maybe helpful to a user are: 
 The ability for the traveler to track and save a route that he frequently travels.
